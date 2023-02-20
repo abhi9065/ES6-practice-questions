@@ -371,7 +371,7 @@ function getViews (blog) {
 
 
 
-     /*   const firstElement = (arry) =>  arry.shift()
+     /*  const firstElement = (arry) =>  arry.shift()
 
       console.log(firstElement([1,2,3,4,5]))    */
 
@@ -380,4 +380,57 @@ function getViews (blog) {
       // question = 27 // 
 
 
+  /*  const arr = [1,2,3,4,5]
+
+    const sum =  (arr,num) => arr[0] + num
       
+     console.log(sum([1,2,4],7))  */
+
+
+
+
+
+      //question = 28//
+
+
+ /*  const sum =  (arr) => Number(arr.slice(-1)) + Number(arr[0]) 
+
+    console.log(sum([1,23,3,4,5]))       */
+    
+    
+
+
+
+    //question = 29//
+
+
+   /*    const person1 = { name: 'John', age: 25, occupation: 'Software Engineer' }
+       const person2 = { name: 'Jane', age: 45, occupation: 'Data Analyst' }
+    
+    function person (obj){
+        return `${obj.name} is ${obj.age}your age`
+    }
+
+
+    console.log(person( person2))      */
+
+
+
+    //question = 30//
+
+
+/*       const person = {
+    name:"amit", 
+    age: 25,
+    job : "software engineer"
+}
+
+
+  function changeOccupation(person ,newjob){
+    person.job = newjob 
+  }
+
+  console.log(person)
+  console.log(changeOccupation())    */
+
+  
