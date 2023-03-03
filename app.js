@@ -1,5 +1,5 @@
 
-    //  question = 1 //
+    // 1= Write a function that takes a user's age and determines if they are old enough to vote (age 18 or older). //
 
 
 /* function isEligibleToVote(age) {
@@ -14,7 +14,7 @@ console.log(isEligibleToVote(18))    */
 
 
 
-    //question = 2 //
+    // 2= Write a function that takes two numbers as input and determines which one is greater. //
 
   
  /*  function isGreater (num1,num2){
@@ -30,7 +30,7 @@ console.log(isEligibleToVote(18))    */
 
 
 
-    //question = 3 //
+    //3= Write a function that takes a number as input and determines if it is positive or negative.  //
 
 
  /*   function checkNum(num){
@@ -45,7 +45,7 @@ console.log(isEligibleToVote(18))    */
     console.log(checkNum(2))      */
 
 
-     //question = 4 //
+     //4= Write a function that takes a number as input and determines if it is even or odd. //
 
 
     /* function isEvenOdd(num){
@@ -90,7 +90,7 @@ console.log(checkLength("pratap"))
 console.log(checkLength("tanay"))  */
 
 
-   // question = 7 //
+   // 7 =  Write a function that takes a number as input and determines if it is between 1 and 10. //
 
 
 
@@ -432,5 +432,263 @@ function getViews (blog) {
 
   console.log(person)
   console.log(changeOccupation())    */
+
+
+
+  //question = 31 //
+  
+  
+  /*    const items = ['apple','banana','orange']
+
+     const formatArray = (items) => {
+     const value1 = items.length
+     const value2 = items[0]
+     const value3 = items.slice(-1)
+
+     return `The array has ${value1} , and the first item is '${value2}' , and the last item is '${value3}'`
+
+  }
+
+  console.log(formatArray(items))            */
+
+
+  //question = 31//
+  
+  
+ /*  const product = {
+     name: 'Socks',
+     price: 249,
+     inStock: true,
+  };
+
+
+
+  const formatProduct = (product) =>{
+    if(product.inStock === true){
+        return `${product.name} costs ${product.price} is in stock`
+    }else{
+        return  `${product.name} costs ${product.price} is not in stock`
+    }
+  }
+
+
+  console.log(formatProduct(product))            */
+
+
+
+  //question =  33 //
+
+
+ /*   const persons  = [{ name: 'Amay', age: 25 }, { name: 'Akhil', age: 25 }]
+
+     const findPersons = (arr , obj) => {
+    const ss = arr.find(items => items.name === obj)
+    if(ss){
+        return("found")
+    }else{
+        return("if not found")
+    }
+  }
+
+  console.log(findPersons(persons,"Amay"))     */
+
+
+
+  //question = 34 //
+
+
+  /*   const arr1 = ['orange' , 'banana' , 'apple']
+      const arr2 = ['red', 'blue' , 'green']
+
+      const [orange, banana ,apple] = arr1;
+      const [red , blue , green] = arr2;
+
+       const pickFirstAndSecond = () =>{
+       let var1  =  `first : ${orange} second : ${banana}`;
+        let var2 = ` first : ${red} second : ${blue} `; 
+        
+        return var2 + var2
+        
+    }
+
+
+    console.log(pickFirstAndSecond(arr1))            */
+
+
+
+    //question = 35 //
+
+
+
+ /*   const startWithA = (str) => str.charAt(0) === "A" ? "true":"false"
+
+    console.log(startWithA("Akshita"))
+    console.log(startWithA("fijid"))            */
+
+
+
+
+
+    //question = 36//
+
+
+
+/*
+  const array = [1,2,3,4,5]
+  
+  const printFirstCharacter = (arr) => arr.shift()
+
+
+  console.log(printFirstCharacter([1,2,3,4,5]))             */
+
+
+
+  //question = 37 //
+
+
+/*
+const array = [0,1,1,2,3,4,5];
+
+
+const printLastFive = ([first,second,...third]) => console.log(first,second,third);
+
+printLastFive(array);               */
+
+
+
+// question = 38 //
+
+/*
+const array = [1,2,3,4,8];
+
+const printSecondCharacter = (arr) => arr[1] * 20;
+
+console.log(printSecondCharacter(array))          */
+
+
+
+// question = 39 //
+
+  
+/*     const array = ['akshay','shweta', 'prerna', 'vinay']
+
+     const sayHello = (arr) => `hello ${arr[1]}`
+
+
+     console.log(sayHello(array));                   */
+
+
+
+
+     // question = 41 //               
+          
+     
+/*
+    const array = [10,4,3,7,1,5]
+
+     const sumFirstTwoElement = (arr) => arr[0] + arr[1]
+
+     console.log(sumFirstTwoElement([10,4,7,1,5]))
+     console.log(sumFirstTwoElement([10,48,7,1,5]))           */
+
+
+
+     //question = 42 //
+
+
+
+/*    const array = [7,4,10,7,5,3]
+
+    const printMultipleOfFive = (arr) => arr % 5 === 0
+
+     var result =  array.find(printMultipleOfFive)
+
+   console.log(result)                   */
+
+
+   // question = 43 //
+
+/*   const userData = {
+    name: 'Jane Doy',
+    postalCode: '12134',
+    city: 'Germany',
+  }
+
+  const {name , postal , city} = userData
+
+
+  const getAddress = (data) => {
+        var aa = Number(data.postal);
+        var ss = data.city;
+        return `postal :${name} , city:${ss}`
+  }
+
+  console.log(getAddress(userData))              */
+
+
+
+  //question = 44 //
+
+
+/*
+  const userData1 = {
+    name: 'Gaurav',
+    postalCode: '12134',
+    country: 'Japan',
+  }
+
+  const printData = (data) => {
+    var a = data.name;
+    var b = data.country;
+    return `${a} lives in ${b}`
+  }
+ 
+  console.log(printData(userData1))                          */
+
+
+
+
+
+  // question = 45//
+
+
+ /* const product = {
+    name: "Apple MacBook Air 2020",
+      specification: {
+      capacity: "256GB",
+      size: "13.3 Inch"
+      },
+    price: 82900
+  }
+
+  const printProductDetsils = (data) =>{
+    return `${data.name} which is of ${(data.size)} , has a capacity of ${data.capacity}`
+  }
+
+  console.log(printProductDetsils(product))             */
+
+
+  //question = 46 //
+
+
+
+ const findMax = (num) => {
+    let max = num[0]
+    for(let i=0; i < num.length; i++){
+        if(num[i] > max){
+            max = num[i]
+        }
+    }
+    return max
+ }
+
+  console.log(findMax([1,5,8,9,55,88]))
+
+
+
+
+
+
+
 
   
