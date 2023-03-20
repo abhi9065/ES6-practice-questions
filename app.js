@@ -60,7 +60,7 @@ console.log(isEligibleToVote(18))    */
      console.log(isEvenOdd(6))   */
 
 
-     // question  = 5 //
+     // 5/- Write a function that takes a string as input and determines if it contains the letter 'a' or ‘A’.//
 
 
   /*  function checkForAlphabetA (value){
@@ -75,7 +75,7 @@ console.log(isEligibleToVote(18))    */
 
 
 
-    // question = 6 // 
+    // 6/- Write a function that takes a string as input and determines if it is longer than 5 characters. // 
 
 
 
@@ -106,7 +106,7 @@ console.log(checkLength("tanay"))  */
   console.log(isBetweenOneAndTen(5))    */
 
 
-    // question = 8 //
+    //  8/- Write a function that takes a string as input and determines if it contains the word "hello". //
 
 
   /*  function isHelloPresent(a){
@@ -122,7 +122,7 @@ console.log(checkLength("tanay"))  */
     console.log(isHelloPresent("world"))   */
 
 
-      //question = 9 //
+      // 9/- Write a function that takes a number as input and determines if it is a multiple of 3.  //
 
 
     /*  function isMultipleOfThree(num){
@@ -137,19 +137,19 @@ console.log(checkLength("tanay"))  */
       console.log(isMultipleOfThree(5))  */
 
 
-      //question  = 10 //
+      // 10/- Write a function which takes in a number as input and returns it after multiplying by 10. //
 
-
-     /* const multiplyByTen = (num) => num * 10 
+/*
+      const multiplyByTen = (num) => num * 10 
       
       console.log(multiplyByTen(30))    */
 
 
 
-      //question = 11 //
+      // 11/- Console individual values of the product object using object destructuring //
 
 
-   /*   let user = {
+   /*  let user = {
         title: "iPhone",
         price: 5999,
         description: "The iPhone is a smartphone developed by Apple"
@@ -157,12 +157,12 @@ console.log(checkLength("tanay"))  */
 
        let  {title , price , description}= user
 
-       console.log(price)   */
+       console.log(price)                     */  
 
 
 
 
-       // question = 12 //
+       //  12/- 1. Create an object book with properties title, author, and pages. Create a function getBookDetails that takes a book object as a parameter and returns if the book has more than 100 pages.  //
 
 
 
@@ -186,7 +186,7 @@ console.log(checkLength("tanay"))  */
 
 
 
-    //question = 13 // 
+    // 13/- Given an array numbers containing the numbers 1, 2, and 3. Use array destructuring to log each number to the console. // 
 
 
 
@@ -197,7 +197,7 @@ console.log(checkLength("tanay"))  */
   console.log(a)               */
 
 
-  //question = 14 //
+  // 14/- Convert the given function into ES6 with least amount of characters. //
 
 
  /*    const defaultParamsfunc = (a,b,c=4) => a*b*c;
@@ -207,7 +207,7 @@ console.log(checkLength("tanay"))  */
 
 
 
-        //question = 15 //
+        // 15/-Create an object person with two properties, "name" and "age" and then updates the "age" property to a new value. Initial age should be 30. //
 
 
    /*   const person = {
@@ -221,7 +221,7 @@ console.log(checkLength("tanay"))  */
 
 
 
-       //question = 16 //
+       // 16/-  Write a function that takes an object car and returns true if the car is a sports car (i.e. has a horsepower property greater than or equal to 300)//
 
 
      /*  const car1 = { make: 'Porsche', model: '911', horsepower: 450 };
@@ -239,7 +239,7 @@ console.log(checkLength("tanay"))  */
        console.log (isSportCar(car1))   */ 
 
 
-       // question = 17 //
+       // 17/- Write a function that takes an object person and a number num as arguments and returns true if the person's age plus num is greater than 21. Otherwise, it should return false.   //
 
 
 
@@ -256,7 +256,7 @@ console.log(checkLength("tanay"))  */
        console.log(isEligible(person1 ,2))     */ 
 
 
-       //question = 18 //
+       // 18/-  Write a function that takes an object blog and returns true if the blog has more than 1000 views (i.e. has a views property greater than 1000) //
 
  
  
@@ -279,7 +279,7 @@ function getViews (blog) {
 
 
 
-   //question = 19 //
+   // 19/-  Swap the values of two variables using array destructuring.  //
 
 
    
@@ -290,7 +290,7 @@ function getViews (blog) {
 
    
 
-   //question = 20 //
+   // 20/-  Convert this function into ES6 with least amount of characters. //
 
 
 
@@ -300,7 +300,7 @@ function getViews (blog) {
 
 
 
-       //question = 21//
+       // 21/-  Write an ES6 function combineObjects with least amount of characters which merges two objects into one.//
 
 
     /*   const obj = {a:1 , b:2, c:3 ,d:4};
@@ -312,7 +312,7 @@ function getViews (blog) {
        console.log(combineobject)             */ 
 
 
-       //question = 22//
+       // 22/- 8. Convert the function getData, into an ES6 function with last amount of characters. //
 
 
 
@@ -339,7 +339,7 @@ function getViews (blog) {
 
 
 
-    //question = 23 //
+    // 23/- Write a function that takes a string as input and returns the string in all uppercase letters. //
 
 
    /* const stringToUpperCase = (obj) => obj.toUpperCase();
@@ -347,7 +347,8 @@ function getViews (blog) {
     console.log(stringToUpperCase("hello"))   */
 
 
-    //question = 24 //
+
+    // 24/- Write a function that takes two strings as input and concatenates them together. //
 
 
 
@@ -358,7 +359,7 @@ function getViews (blog) {
 
 
 
-      //question = 25 //
+      // 25 /- Write a function that takes an array and returns the last element in the array. //
 
 
      /* const lastElement = (arry) => arry.pop()
@@ -367,7 +368,7 @@ function getViews (blog) {
 
 
 
-      //question = 26 //
+      // 26 /- Write a function that takes an array and returns the first element of the array. //
 
 
 
@@ -377,7 +378,7 @@ function getViews (blog) {
 
 
 
-      // question = 27 // 
+      //  27/- Write a function that takes an array and a number and returns the sum of first element and the number. // 
 
 
   /*  const arr = [1,2,3,4,5]
@@ -390,7 +391,7 @@ function getViews (blog) {
 
 
 
-      //question = 28//
+      // 28/- Write a function that takes an array and returns the sum of first and last element. //
 
 
  /*  const sum =  (arr) => Number(arr.slice(-1)) + Number(arr[0]) 
@@ -401,7 +402,7 @@ function getViews (blog) {
 
 
 
-    //question = 29//
+    // 29/- Write a function that takes an object representing a person's information (name, age, occupation) and returns a template literal that includes the person's name and age in a sentence.//
 
 
    /*    const person1 = { name: 'John', age: 25, occupation: 'Software Engineer' }
@@ -416,7 +417,7 @@ function getViews (blog) {
 
 
 
-    //question = 30//
+    // 30/- Create a function changeOccupation that takes an object person and a string newOccupation as parameters, and changes the occupation property of the person object to the newOccupation. Log the person object to the console before and after calling the function.//
 
 
 /*       const person = {
@@ -435,7 +436,7 @@ function getViews (blog) {
 
 
 
-  //question = 31 //
+  // 31/- Create a function that takes an array of strings as an argument and returns a string that includes the number of items in the array and the first and last items //
   
   
   /*    const items = ['apple','banana','orange']
@@ -452,7 +453,7 @@ function getViews (blog) {
   console.log(formatArray(items))            */
 
 
-  //question = 31//
+  // 32/- Create a function that takes a product object as an argument and returns a string that includes the product name, price, and a message based on whether it is in stock or not. //
   
   
  /*  const product = {
@@ -476,7 +477,7 @@ function getViews (blog) {
 
 
 
-  //question =  33 //
+  //  33/-  3. Write a function findPerson that takes an array of person objects and a name as parameters and returns the object with the matching name, or null if not found.  //
 
 
  /*   const persons  = [{ name: 'Amay', age: 25 }, { name: 'Akhil', age: 25 }]
@@ -494,7 +495,7 @@ function getViews (blog) {
 
 
 
-  //question = 34 //
+  // 34/- Write a function that uses destructuring to extract the first two elements from an array, and returns them in an object with keys 'first' and 'second'.  //
 
 
   /*   const arr1 = ['orange' , 'banana' , 'apple']
@@ -516,7 +517,7 @@ function getViews (blog) {
 
 
 
-    //question = 35 //
+    // 35 /-5. Convert the following code to ES6+ syntax with minimum number of characters.  //
 
 
 
@@ -529,7 +530,7 @@ function getViews (blog) {
 
 
 
-    //question = 36//
+    // 36/-Write an ES6 function to return only the first character of the given array. //
 
 
 
@@ -543,7 +544,7 @@ function getViews (blog) {
 
 
 
-  //question = 37 //
+  // 37/- Write a function to return the last 5 characters as an array from the given array.  //
 
 
 /*
@@ -556,7 +557,7 @@ printLastFive(array);               */
 
 
 
-// question = 38 //
+//  38/- Write an ES6 function to return the second element of the given array by multiplying 20 to it. //
 
 /*
 const array = [1,2,3,4,8];
@@ -567,7 +568,7 @@ console.log(printSecondCharacter(array))          */
 
 
 
-// question = 39 //
+//  39/ Write an ES6 function to return the second element of the given array by adding “Hello” before it. //
 
   
 /*     const array = ['akshay','shweta', 'prerna', 'vinay']
@@ -580,7 +581,7 @@ console.log(printSecondCharacter(array))          */
 
 
 
-     // question = 41 //               
+     // 41/- Write an ES6 function to return the sum of only first 2 elements of the array  //               
           
      
 /*
@@ -593,7 +594,7 @@ console.log(printSecondCharacter(array))          */
 
 
 
-     //question = 42 //
+     // 42/- Write an ES6 function to return the first element which is a multiple of 5 in the given array. //
 
 
 
@@ -606,7 +607,7 @@ console.log(printSecondCharacter(array))          */
    console.log(result)                   */
 
 
-   // question = 43 //
+   //  43/- Create a function which takes in the given object and returns another object only with the properties postalCode and city in it. //
 
 /*   const userData = {
     name: 'Jane Doy',
@@ -627,7 +628,7 @@ console.log(printSecondCharacter(array))          */
 
 
 
-  //question = 44 //
+  // 44/- Create a function which takes in the given object and returns a sentence which indicates name of the person and where the person lives //
 
 
 /*
@@ -649,7 +650,7 @@ console.log(printSecondCharacter(array))          */
 
 
 
-  // question = 45//
+  //  45/- Create a function which takes a product object and returns a sentence about the product using ES6 features. //
 
 
  /* const product = {
@@ -668,7 +669,7 @@ console.log(printSecondCharacter(array))          */
   console.log(printProductDetsils(product))             */
 
 
-  //question = 46 //
+  // 46/- Write an ES6 function that accepts an array of integers and returns the maximum element in the array. Avoid using in-built methods. //
 
 
 
